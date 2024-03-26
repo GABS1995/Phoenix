@@ -1,0 +1,12 @@
+while True:
+    print('Please input number of your choice')
+    spam = int(input())
+    if spam == 1:
+        print('Hello')
+        break
+    elif spam == 2:
+        print('Howdy')
+        break
+    else:
+        print('Greetings')
+        break
